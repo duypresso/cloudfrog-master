@@ -78,4 +78,7 @@ temp/
 .docker/
 .qodo
 .env
-.env
+# Ignore all .env files in all subdirectories
+env*/
+**/.env
+*.env
